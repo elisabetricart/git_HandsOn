@@ -1,5 +1,5 @@
 #!/bin/bash
-#Canvis
+#ssooooo canvi
 seq=$1 #Guarda sobre la variable la secuencia entrada
 seq=$(echo $seq | tr a-z A-Z) # Pasa a mayusculas los valores entrados
 if [[ $seq =~ ^[ACGTU]+$ ]]; then #Si contiene los valores dichos entrara dentro
